@@ -25,8 +25,8 @@ class DefaultController extends Controller
 		$map->setMapOption('zoom', 13);
 		$map->setLanguage('es');
 		$map->setStylesheetOptions(array(
-    		'width' => '600px',
-    		'height' => '600px'
+    		'width' => '500px',
+    		'height' => '500px'
 		));
 
 		$marker = $this->get('ivory_google_map.marker');		
